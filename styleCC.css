@@ -1,0 +1,178 @@
+h1 {
+  color: red;
+}
+body {
+  background-color: lightgray;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  /*same*/
+  font: 20px 400 Arial, Helvetica, sans-serif;
+
+  line-height: 1.5em;
+  margin: 0;
+}
+
+.clr {
+  clear: both;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.box1 {
+  background-color: lightblue;
+  color: black;
+
+  border: 5px red solid;
+  padding: 10px;
+  margin: 10px 0;
+}
+.box1 h1 {
+  font-family: tahoma;
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0em;
+  word-spacing: 1em;
+}
+.box2 {
+  border: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+a:active {
+  color: green;
+}
+a:visited {
+  color: blue;
+}
+
+.categories {
+  border: 1px black solid;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.categories h2 {
+  text-align: center;
+}
+
+.categories ul {
+  padding-left: 70px;
+  list-style: square;
+  list-style: none;
+}
+
+.categories li {
+  padding: 5px;
+  border: 2px;
+  list-style-image: url("./images/pepe.jpg");
+}
+
+.my-form {
+  padding: 20px;
+}
+
+.my-form .form-group {
+  padding-bottom: 15px;
+}
+
+.my-form abel {
+  display: block;
+}
+
+.my-form input[type="text"],
+.my-form textarea {
+  padding: 10px;
+  width: 100%;
+}
+
+.my-form input[type="submit"] {
+  background-color: gray;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px solid gray;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#mainblock {
+  float: left;
+  width: 70%;
+}
+
+#sidebar {
+  float: right;
+  width: 30%;
+  background-color: darkgray;
+  color: white;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.pbox {
+  width: 800px;
+  height: 500px;
+  border: 1px solid black;
+  margin-top: 30px;
+  position: relative;
+  background-image: url("./images/Sadge.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.pbox h1 {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+
+.pbox h2 {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+
+.fix-me {
+  position: fixed;
+  top: 400px;
+}
+
+.my-list li:first-child {
+  background: red;
+}
+.my-list li:last-child {
+  background: blue;
+}
+.my-list li:nth-child(3) {
+  background: yellow;
+}
+.my-list li:nth-child(even) {
+  background: white;
+}
